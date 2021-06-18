@@ -4,19 +4,13 @@ module.exports = {
     index:'./src/index.ts'
   },
   module: {
-    rules: [{
-      test: /\.ts$/,
-      exclude: /(node_modules)/,
-      use: {
-        loader: 'babel-loader',
-        options: {
-          presets: [
-            '@babel/preset-env',
-            '@babel/preset-typescript'
-          ]
-        }
-      }
-    }]
+    rules: [
+      {
+        test: /\.ts?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+    ],
   },
   // rest of the webpack config
   resolve: {
