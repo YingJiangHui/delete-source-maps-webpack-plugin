@@ -1,7 +1,6 @@
 import {Compiler} from 'webpack'
 import path from 'path'
 import fs from 'fs'
-
 class WebpackPluginDeleteSourcemap {
   apply(compiler:Compiler){
     compiler.hooks.done.tap('webpack-plugin-delete-source-map',(stats)=>{
