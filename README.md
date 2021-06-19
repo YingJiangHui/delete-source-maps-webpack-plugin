@@ -4,12 +4,14 @@
 [![npm version](https://badge.fury.io/js/delete-source-maps-webpack-plugin.svg)](https://badge.fury.io/js/delete-source-maps-webpack-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/YingJiangHui/delete-source-maps-webpack-plugin/blob/main/LICENSE)
 
-### 安装
+### install
+```bash
+npm install --save-dev
+```
 ```bash
 yarn add delete-source-maps-webpack-plugin -D
 ```
-
-### 对于 webpack 配置
+### webpack 
 ```js
 // webpack.config.js
 const DeleteSourceMapsWebpackPlugin = require('delete-source-maps-webpack-plugin').default
@@ -22,7 +24,7 @@ module.exports = {
 }
 ```
 
-### 对于 chainWebpack 配置
+### chainWebpack
 ```js
 import DeleteSourceMapsWebpackPlugin from 'delete-source-maps-webpack-plugin'
 
