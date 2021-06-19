@@ -1,6 +1,7 @@
 {
   "name": "delete-source-maps-webpack-plugin",
   "version": "1.0.0",
+  "keywords": ["build","delete","remove","sourcemap","webpack","plugin"],
   "description": "删除webpack打包后的sourcemap文件",
   "main": "dist/index",
   "types": "dist/index",
