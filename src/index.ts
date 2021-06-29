@@ -15,11 +15,9 @@ class WebpackPluginDeleteSourcemap {
         }).length
         console.log(`------ deleted sourcemap files: ${sourcemapFileCount} ------`)
       }catch(e){
-      
+        console.log(e)
       }
-
     })
   }
 }
-
 export default WebpackPluginDeleteSourcemap
