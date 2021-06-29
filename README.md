@@ -6,7 +6,7 @@
 
 ### install
 ```bash
-npm install --save-dev
+npm install delete-source-maps-webpack-plugin --save-dev
 ```
 ```bash
 yarn add delete-source-maps-webpack-plugin -D

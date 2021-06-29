@@ -1,6 +1,6 @@
 {
   "name": "delete-source-maps-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "keywords": ["build","delete","remove","sourcemap","webpack","plugin"],
   "repository": "https://github.com/YingJiangHui/delete-source-maps-webpack-plugin",
   "homepage": "https://github.com/YingJiangHui/delete-source-maps-webpack-plugin",
